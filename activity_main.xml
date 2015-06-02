@@ -1,0 +1,14 @@
+<com.kenturf.gamedevzoomtest.ZoomView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoomView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/rlBottomTitle"
+    android:layout_below="@+id/rlPieTitle"
+    android:layout_centerInParent="true">
+    <RelativeLayout
+        android:id="@+id/relativeZoom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/floorimg">
+    </RelativeLayout>
+</com.kenturf.gamedevzoomtest.ZoomView>
